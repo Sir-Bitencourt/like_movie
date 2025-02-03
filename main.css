@@ -1,0 +1,296 @@
+body {
+    background: url('https://servidor-estatico-lemon-pi.vercel.app/home2.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #BFA760; /* Mantendo a cor do texto dourada */
+    font-family: 'EB Garamond', serif;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-size: 24px;
+}
+
+@font-face {
+    font-family: 'Ringbearer';
+    src: url('https://servidor-estatico-lemon-pi.vercel.app/ringm.ttf') format('truetype');
+}
+    
+@font-face {
+    font-family: 'Aniron';
+    src: url('https://servidor-estatico-lemon-pi.vercel.app/anirb___.ttf') format('truetype');
+}
+    
+h1, footer {
+    font-family: 'Ringbearer', serif;
+}
+
+h2, h3, h4, h5, h6,
+.form-label, .form-control,
+.card-header, .card-premios h4{
+    font-family: 'Aniron', serif !important;
+}
+
+.form-label, .form-control, .btn {
+    font-size: 30px; /* Ajuste para os elementos do formulário */
+}
+
+.navbar>.container {
+    width: 80%;    /* A imagem ocupará 100% da largura do container */
+    max-width: 2600px;
+    height: auto;  /* Mantém a proporção da imagem */
+    margin: 0 auto;  /* Centraliza a imagem dentro do container */
+    display: flex;   /* Para garantir que a imagem seja exibida como um bloco */
+    justify-content: space-between;
+}
+
+.navbar,
+footer {
+    background-color: #2E4F2F;
+    color: #e0bd51;
+}
+
+#sobre-a-empresa .carousel-item {
+    width: 100%;
+    height: 700px;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #e0bd51;
+    color: #2E4F2F;
+}
+
+#cabecalho h1 {
+    font-weight: bold;
+    font-style: italic;
+    color: #e0bd51;
+    font-size: 40px;
+}
+
+#carousel .carousel-caption h2 {
+    color: red;
+    font-weight: bold;
+    text-align: left;
+    font-size: 30px;
+}
+
+#cabecalho .nav .nav-link {
+    color: #e0bd51;
+    font-style: italic;
+    font-size: 28px;
+}
+
+#sobre-a-empresa, #produtos {
+    background-color: #2E4F2F;
+}
+
+.social-links {
+    padding-top: 30px !important;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+    margin: 20px;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #5a5a5a;
+    font-size: 50px;
+}
+
+.container-sinopse img {
+    max-width: 80%; /* Garante que a imagem não ultrapasse o contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+    object-fit: cover; /* Ajusta a imagem para cobrir o espaço disponível */
+    border-radius: 10px; /* Borda arredondada para suavizar as imagens */
+    padding-left: 50px;
+}
+
+.container-sinopse {
+    width: 70%;
+    margin: 0 auto !important; /* Centraliza horizontalmente */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Alinha os itens ao centro */
+}
+
+.container-sinopse h2 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.container-sinopse p {
+    font-size: 32px;
+    text-align: justify;
+    margin: 20px 0;
+}
+
+#filmes {
+    max-width: 80%;
+    margin: 0 auto !important; /* Centraliza horizontalmente */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Alinha os itens ao centro */
+    padding-bottom: 50px !important;
+}
+
+.container-filmes h2 {
+    padding: 30px;
+}
+
+#filmes .card-header {
+font-size: 30px;
+text-align: center;
+}
+
+#filmes .card img {
+    height: 300px;
+    object-fit: cover;
+    width: 100%;
+}
+
+#filmes .card-body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 500px;
+    border-radius: 5px;
+}
+
+#filmes .card .btn {
+    margin-top: 10px;
+    align-self: flex-start;
+}
+
+#filmes .card .btn {
+    align-self: flex-end;
+    margin-top: 10px;
+}
+
+#carouselExample {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+#premios {
+    background-color: #2E4F2F;
+}
+
+#premios h2 {
+    padding: 30px;
+}
+
+.card-header {
+    background-color: #5A5A5A;
+    color: #e0bd51;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.card-premios h4,
+.card-premios p {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.card-body {
+    background-color: #5A5A5A;
+    color: #e0bd51;
+    font-weight: bold;
+}
+
+.col-12 img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.btn-primary {
+font-size: 24px;
+font-weight: bold;
+}
+
+.btn-primary,
+.col-md-7 button {
+    background-color: #2E4F2F !important;
+    border-color: #2E4F2F !important;
+    color: #e0bd51 !important;
+}
+
+.btn-primary:hover,
+.col-md-7 button:hover {
+    background-color: #e0bd51 !important;
+    border-color: #e0bd51 !important;
+    color: #2E4F2F !important;
+}
+
+.btn-primary:active,
+.col-md-7 button:active {
+    background-color: #e0bd51 !important;
+    border-color: red !important;
+    color: red !important;
+}
+
+#container-photos .card-body {
+    max-width: 100%;
+    height: 200px;
+    padding: 1rem;
+    overflow: hidden;
+}
+
+#fale-conosco h2 {
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.form-label, .form-control {
+    font-size: 24px; /* Ajuste para os elementos do formulário */
+    font-style: italic;
+    color: #e0bd51;
+    font-weight: bold;
+}
+
+.row-form {
+    max-width: 80% !important;
+    margin: 0 auto !important;
+    padding: 0 auto;
+    display: flex;
+    flex-direction: row; /* Deixa os elementos lado a lado */
+    justify-content: space-between; /* Espaçamento entre as colunas */
+    flex-wrap: wrap; /* Garante que fique responsivo */
+}
+
+.col-md-7 {
+    flex: 1;
+    padding-right: 150px; /* Ajuste no padding */
+}
+
+.col-md-5 {
+    flex: 1;
+    padding-top: 26px;
+}
+
+.fs-4 {
+    font-size: 30px !important;
+}
+
+.mt-4 p {
+    font-size: 30px;
+}
+
+footer {
+    color: #e0bd51;
+    padding: 20px 10px;
+    font-size: 40px;
+}
+
+.container-footer p {
+    text-align: center;
+    align-items: center;
+    margin: 0;
+}

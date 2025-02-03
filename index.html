@@ -1,0 +1,440 @@
+<!DOCTYPE HTML>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trilogia - O senhor dos anéis</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="icon" sizes="270x270" href="https://servidor-estatico-lemon-pi.vercel.app/home4.png" type="image/jpg" />
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-2" id="cabecalho">
+        <div class="container">
+            <h1>Trilogia - O senhor dos anéis</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block  d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-a-empresa" class="nav-link active">
+                            <i class="bi bi-megaphone me-1"></i>
+                            Sinópse</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#filmes" class="nav-link">
+                            <i class="bi bi-ticket-perforated me-1"></i>
+                            Filmes</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#premios" class="nav-link">
+                            <i class="bi bi-trophy me-1"></i>
+                            Premios</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-dots me-1"></i>
+                            inscreva-se</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div id="body" data-bs-spy="scroll" data-bs-target="#cabecalho">
+        <section id="sobre-a-empresa">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div data-bs-interval="3000" class="carousel-item active">
+                        <img class="d-block w-100" src="https://servidor-estatico-lemon-pi.vercel.app/carousel1.jpg" alt="Condado dos Hobbits">
+                        <div class="carousel-caption">
+                            <h2>Condado dos Hobbits</h2>
+                        </div>
+                    </div>
+                    <div data-bs-interval="3000" class="carousel-item">
+                        <img class="d-block w-100" src="https://servidor-estatico-lemon-pi.vercel.app/carousel2.jpeg" alt="As torres Orthanc e Minas Morgul">
+                        <div class="carousel-caption">
+                            <h2>Orthanc e Minas Morgul</h2>
+                        </div>
+                    </div>
+                    <div data-bs-interval="3000" class="carousel-item">
+                        <img class="d-block w-100" src="https://servidor-estatico-lemon-pi.vercel.app/carousel3.jpg" alt="As Argonath - Valinor">
+                        <div class="carousel-caption">
+                            <h2>As Argonath - Portão dos Reis</h2>
+                        </div>
+                    </div>
+                    <div data-bs-interval="3000" class="carousel-item">
+                        <img class="d-block w-100" src="https://servidor-estatico-lemon-pi.vercel.app/carousel4.jpg" alt="Númenor">
+                        <div class="carousel-caption">
+                            <h2>Númenor - O reino dos homens</h2>
+                        </div>
+                    </div>
+                    <div data-bs-interval="3000" class="carousel-item">
+                        <img class="d-block w-100" src="https://servidor-estatico-lemon-pi.vercel.app/carousel5.jpg" alt="Torre de vigilância de Moria">
+                        <div class="carousel-caption">
+                            <h2>Torre de vigilância de Moria</h2>
+                        </div>
+                    </div>
+                    <div data-bs-interval="3000" class="carousel-item">
+                        <img class="d-block w-100" src="https://servidor-estatico-lemon-pi.vercel.app/carousel10.jpg" alt="O reino de Gondor">
+                        <div class="carousel-caption">
+                            <h2>O reino de Gondor</h2>
+                        </div>
+                    </div>
+                </div>
+                <button data-bs-target="#carousel" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button data-bs-target="#carousel" data-bs-slide="next" class="carousel-control-next" type="button">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="3"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="4"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="5"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container-sinopse">
+                    <div class="row">
+                        <div class="col-12 col-md-5 mb-4 mb-md-0">
+                            <img src="https://servidor-estatico-lemon-pi.vercel.app/home3.webp" class="d-block w-100 rounded img-fluid" alt="O 'um' anel">
+                        </div>
+                        <div class="col-12 col-md-7">
+                            <h2 class="section-title">Trilogia "O Senhor dos Anéis"</h2>
+                            <br>
+                            <p>
+                                Uma jornada épica que atravessa terras místicas, enfrenta forças sombrias e 
+                                redefine o significado de amizade, coragem e sacrifício. O Senhor dos Anéis, 
+                                dirigido por Peter Jackson e baseado na obra-prima de J.R.R. Tolkien, é uma 
+                                das maiores sagas da história do cinema, transportando o espectador para a 
+                                fascinante Terra-média, onde o destino do mundo depende da bravura de um 
+                                pequeno hobbit e seus companheiros.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row mt-5">
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <p> A trilogia O Senhor dos Anéis é um marco do cinema, aclamada pela crítica e pelo 
+                                público, sendo vencedora de diversos prêmios, incluindo 17 Oscars. Com efeitos 
+                                visuais impressionantes, trilha sonora inesquecível e uma história que mistura 
+                                aventura, drama e emoção, O Senhor dos Anéis não é apenas uma trilogia, mas uma 
+                                experiência cinematográfica única. Se você busca uma jornada que irá te marcar 
+                                para sempre, a Terra-média o aguarda. 🌿🔥💍
+                            </p>
+                            <br>
+                            <h2 class="section-title">Uma aventura pela terra média de tirar o fôlego !!!</h2>
+                        </div>
+                        <div class="col-md-5">
+                            <img src="https://servidor-estatico-lemon-pi.vercel.app/home1.webp" class="d-block w-100 rounded" alt="A sociedade do anel">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="filmes" class="pt-5 pb-5">
+            <div class="container-filmes">
+                <div class="row">
+                    <h2 class="section-title text-center">Filmes</h2>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card text-bg-white">
+                            <div class="card-header">
+                                Vencedor de 4 Oscars
+                            </div>
+                            <div id="carouselMadrid" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="https://servidor-estatico-lemon-pi.vercel.app/sociedade1.jpg" class="d-block w-100" alt="Imagem 1">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="https://servidor-estatico-lemon-pi.vercel.app/sociedade4.jpg" class="d-block w-100" alt="Imagem 2">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="https://servidor-estatico-lemon-pi.vercel.app/sociedade3.jpg" class="d-block w-100" alt="Imagem 3">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselMadrid" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselMadrid" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">O Senhor dos Anéis: A Sociedade do Anel</h5>
+                                <h6 class="card-subtitle">(2001)</h6>
+                                <br>
+                                <p>O jovem hobbit Frodo Bolseiro recebe um anel mágico herdado de seu tio 
+                                    Bilbo, sem saber que ele é a fonte do poder do maligno Senhor do Escuro, 
+                                    Sauron. Para impedir que o artefato caia em mãos erradas, Frodo parte em 
+                                    uma perigosa jornada até a Montanha da Perdição, onde o Anel deve ser 
+                                    destruído. Ele é acompanhado por um grupo de heróis, incluindo Gandalf, 
+                                    Aragorn, Legolas, Gimli, Boromir e seus amigos hobbits.</p>
+                                <a href="https://www.youtube.com/watch?v=0i86oM1nHjM" target="_blank" class="btn btn-primary">Assistir trailer</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card text-bg-white">
+                            <div class="card-header">
+                                Vencedor de 2 Oscars
+                            </div>
+                            <div id="carouselFortaleza" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="https://servidor-estatico-lemon-pi.vercel.app/duas_torres2.jpg" class="d-block w-100" alt="Imagem 1">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="https://servidor-estatico-lemon-pi.vercel.app/duas_torres3.webp" class="d-block w-100" alt="Imagem 2">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="https://servidor-estatico-lemon-pi.vercel.app/duas_torres4.webp" class="d-block w-100" alt="Imagem 3">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselFortaleza" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselFortaleza" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">O Senhor dos Anéis: As Duas Torres</h5>
+                                <h6 class="card-subtitle">(2002)</h6>
+                                <br>
+                                <p>A Sociedade do Anel se fragmenta, e Frodo continua sua missão ao lado de 
+                                    Sam, agora guiado pelo misterioso Gollum. Enquanto isso, Aragorn, Legolas 
+                                    e Gimli tentam resgatar Merry e Pippin, que foram capturados pelos orcs. 
+                                    A guerra contra Sauron se intensifica, e o reino de Rohan se torna um dos 
+                                    últimos bastiões de resistência contra as forças do mal, culminando na 
+                                    épica Batalha do Abismo de Helm.</p>
+                                <a href="https://www.youtube.com/watch?v=Al5iC4CnhYc" target="_blank" class="btn btn-primary">Assistir trailer</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card text-bg-white">
+                            <div class="card-header">
+                                Vencedor de 11 Oscars
+                            </div>
+                            <div id="carouselMontreal" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="https://servidor-estatico-lemon-pi.vercel.app/retorno_rei2.jpg" class="d-block w-100" alt="Imagem 1">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="https://servidor-estatico-lemon-pi.vercel.app/retorno_rei3.jpg" class="d-block w-100" alt="Imagem 2">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="https://servidor-estatico-lemon-pi.vercel.app/retorno_rei4.png" class="d-block w-100" alt="Imagem 3">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselMontreal" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselMontreal" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">O Senhor dos Anéis: O Retorno do Rei</h5>
+                                <h6 class="card-subtitle">(2003)</h6>
+                                <br>
+                                <p>A batalha final pela Terra-média se aproxima. Frodo e Sam enfrentam desafios 
+                                    cada vez mais difíceis para alcançar Mordor, enquanto Aragorn assume seu 
+                                    destino como rei e lidera as forças da humanidade contra Sauron. A épica 
+                                    guerra culmina na batalha pelos portões de Mordor, enquanto Frodo e Sam 
+                                    chegam ao coração do reino sombrio para tentar destruir o Anel de uma vez 
+                                    por todas.</p>
+                                <a href="https://www.youtube.com/watch?v=OQgySPQ5M3Y" target="_blank" class="btn btn-primary">Assistir trailer</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="section-title text-center mb-5" id="premios">
+            <h2>Principais premiações</h2>
+            <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="5000">
+                        <div class="row mx-2">
+                            <div class="col-12 col-md-6 col-lg-4 mb-3">
+                                <article class="card-premios">
+                                    <header class="card-header">
+                                        Oscar 2002
+                                    </header>
+                                    <img src="https://servidor-estatico-lemon-pi.vercel.app/cinematografia_filme1.jpg" alt="Melhor cinematografia" />
+                                    <div class="card-body">
+                                        <h4 class="card-title">Categoria</h4>
+                                        <p>Melhor cinematografia</p>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4 mb-3">
+                                <article class="card-premios">
+                                    <header class="card-header">
+                                        Oscar 2002
+                                    </header>
+                                    <img src="https://servidor-estatico-lemon-pi.vercel.app/efeitos_visuais_filme1.jpg" alt="Melhor cinematografia" />
+                                    <div class="card-body">
+                                        <h4 class="card-title">Categoria</h4>
+                                        <p>Melhor Banda Sonora Original</p>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4 mb-3">
+                                <article class="card-premios">
+                                    <header class="card-header">
+                                        Oscar 2003
+                                    </header>
+                                    <img src="https://servidor-estatico-lemon-pi.vercel.app/edicao_som_filme2.jpg" alt="Melhor cinematografia" />
+                                    <div class="card-body">
+                                        <h4 class="card-title">Categoria</h4>
+                                        <p>Melhor edição de som</p>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <div class="row mx-2">
+                            <div class="col-12 col-md-6 col-lg-4 mb-3">
+                                <article class="card-premios">
+                                    <header class="card-header">
+                                        Oscar 2003
+                                    </header>
+                                    <img src="https://servidor-estatico-lemon-pi.vercel.app/efeitos_visuais.jpg" alt="Melhor cinematografia" />
+                                    <div class="card-body">
+                                        <h4 class="card-title">Categoria</h4>
+                                        <p>Melhores efeitos visuais</p>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4 mb-3">
+                                <article class="card-premios">
+                                    <header class="card-header">
+                                        Oscar 2004
+                                    </header>
+                                    <img src="https://servidor-estatico-lemon-pi.vercel.app/melhor_filmejpg.jpg" alt="Melhor cinematografia" />
+                                    <div class="card-body">
+                                        <h4 class="card-title">Categoria</h4>
+                                        <p>Melhor filme</p>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4 mb-3">
+                                <article class="card-premios">
+                                    <header class="card-header">
+                                        Oscar 2004
+                                    </header>
+                                    <img src="https://servidor-estatico-lemon-pi.vercel.app/melhor_diretor.jpg" alt="Melhor cinematografia" />
+                                    <div class="card-body">
+                                        <h4 class="card-title">Categoria</h4>
+                                        <p>Melhor diretor</p>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>        
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container-form">
+                <div class="row">
+                    <h2 class="section-title text-center">Assine nossa Newsletter</h2>
+                </div>
+                <div class="row-form">
+                    <div class="col-md-7 mb-5">
+                        <form action="https://portifolio-edison.vercel.app/" target="_blank" method="get">
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" placeholder="Nome completo" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                                <input type="email" id="e-mail" class="form-control" placeholder="email@email.com" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone</label>
+                                <input type="tel" id="telefone" class="form-control" placeholder="(__) _____-____" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Deixe uma mensagem</label>
+                                <textarea class="form-control" id="mensagem" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-index"></i>
+                                Siga nossas redes sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-2 me-2">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-tiktok text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>Condado dos Hobbits Nº 321 - Valfenda - Nova Zelandia - NZ</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="container-footer fw-bold">
+                <p>
+                    &copy; New line cinema | Todos os direitos reservados - 2002
+                </p>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
